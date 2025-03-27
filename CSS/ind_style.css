@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right,#FFFFFF,#126631);
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img
+{
+    height:55vh;
+    width:100%;
+}
+.login
+{
+    width: 35vw;
+    border: 1px solid black;
+    background-color: #FFFF;
+}
+h2{
+    margin-left: 30%;
+    color:#126631;
+    font-weight: bold;
+}
+input{
+    height: 9vh;
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid #126631;
+    text-align: center;
+    color:#126631;
+    background-color: #cde7d6;
+}
+button
+{
+    height: 6vh;
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid #126631;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: larger;
+    background-color:#126631;
+}
+.hd
+{
+    font-weight: bolder;
+    color:green;
+}
+span{
+    color:#FFFFFF;
+}

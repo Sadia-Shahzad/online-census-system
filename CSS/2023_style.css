@@ -1,0 +1,290 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav
+{
+    background-color: #116530;
+}
+nav img
+{
+    height: 15vh;
+    width: 65px;
+    border-radius: 50%;
+}
+footer
+{
+    background-color: #116530;
+    padding-top: 3%;
+}
+footer h3
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+footer ul li 
+{
+    margin-bottom: 5%;
+}
+footer ul li a 
+{
+     text-decoration: none;
+}
+footer ul li a:hover
+{
+    border: 2px dashed white;
+}
+footer img{
+    height: 20vh;
+    border-radius:50% ;
+}
+.ftr3 ul li
+{
+   margin-bottom: 15%;
+}
+nav ul li a:hover
+{
+    border: 1px dashed white;
+}
+.slct
+{
+    border: 1px dashed white;
+}
+.pi
+{
+    display: inline-block;
+    width: 400px;
+    height:400px;
+    border:2px solid black;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.divider
+{
+    border:2px solid black;
+    width:200px;
+    height:400px;
+
+}
+#one
+{
+   background-color: crimson;
+   position: relative;
+   left: 200px;
+   bottom:2px;
+   z-index:6;
+   animation:pi1 1s ease 0s 1 normal;
+}
+#two
+{
+   background-color: rgb(20, 183, 220);
+   position:relative;
+   bottom: 330px;
+   transform:rotate(75deg);
+   z-index:5 ;
+   animation:pi2 2s ease 0s 1 normal;
+}
+#thr
+{
+   background-color: rgb(63, 220, 20);
+   position:relative;
+   bottom: 730px;
+   right:50px;
+   transform: rotate(20deg);
+   z-index:4 ;
+   animation:pi3 3s ease 0s 1 normal;
+}
+#fr
+{
+   background-color: rgb(242, 255, 0);
+   position:relative;
+   bottom: 1220px;
+   right: 86px;
+   transform: rotate(40deg);
+   z-index:3 ;
+   animation:pi4 4s ease 0s 1 normal;
+}
+#fv
+{
+   background-color: rgb(173, 20, 220);
+   position: relative;
+   bottom: 1670px;
+   right:90px;
+   transform: rotate(70deg);
+   z-index: 2;
+   animation:pi5 5s ease 0s 1 normal;
+}
+#six
+{
+   background-color: crimson;
+   position:relative;
+   bottom: 1850px;
+   left:145px;
+   border-top:none;
+   border-right:none;
+   transform: rotate(15deg);
+   z-index:6;
+   animation:pi1 1s ease 0s 1 normal;
+}
+#svn
+{
+    background-color: #e8e683;
+    border: none;
+    position:relative;
+    bottom: 2500px;
+    z-index: 1;
+    animation:pi6 6s ease 0s 1 normal;
+}
+.row
+{
+    overflow:hidden;
+}
+.labels h4
+{
+    color: #116530;
+}
+.l1
+{
+    position: relative;
+    bottom: 40vh;
+    left: 750px;
+    animation:hd 1s ease 0s 1 normal;
+}
+.l2
+{
+    position: relative;
+    bottom: 160px;
+    left: 150px;
+    animation:hd 2s ease 0s 1 normal;
+}
+.l3
+{
+    position: relative;
+    bottom: 340px;
+   right: 10px;
+   animation:hd 3s ease 0s 1 normal;
+}
+.l4
+{
+    position: relative;
+    bottom: 490px;
+    left: 100px;
+    animation:hd 4s ease 0s 1 normal;
+}
+.l5
+{
+    position: relative;
+    bottom: 590px;
+    left: 320px;
+    animation:hd 5s ease 0s 1 normal;
+}
+.l6
+{
+    position: relative;
+    bottom: 650px;
+    left: 500px;
+    animation:hd 6s ease 0s 1 normal;
+}
+@keyframes pi1
+{
+    from
+    {
+        background-color: white;
+    }
+    to
+    {
+        background-color:crimson ;
+    }
+}
+@keyframes pi2
+{
+    0%
+    {
+        background-color:white;
+    }
+    50%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color:rgb(20, 183, 220);
+    }
+}
+@keyframes pi3
+{
+    0%
+    {
+        background-color: white;
+    }
+    50%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color:  rgb(63, 220, 20);
+    }
+}
+@keyframes pi4
+{
+    0%
+    {
+        background-color: white;
+    }
+    50%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color: rgb(242, 255, 0) ;
+    }
+}
+@keyframes pi5
+{
+    0%
+    {
+        background-color: white;
+    }
+    50%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color:rgb(173, 20, 220) ;
+    }
+}
+@keyframes pi6
+{
+    0%
+    {
+        background-color: white;
+    }
+    50%
+    {
+        background-color:white;
+    }
+    100%
+    {
+        background-color:  #e8e683;
+    }
+}
+@keyframes hd
+{
+    0%
+    {
+        display:none;
+    }
+    50%
+    {
+        display:none;
+    }
+    100%
+    {
+        display:block;
+    }
+}

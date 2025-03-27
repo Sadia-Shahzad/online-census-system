@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/pg3_style.css">
+    <link rel="stylesheet" href="CSS/pg3_mq.css">
+    <link rel="icon" type="image/x-icon" href="images/fevicon.png">
+    <title>Participate</title>
+</head>
+<body>
+    <header >
+
+        <nav class="navbar navbar-expand-md ">
+
+            <div class="container-fluid">
+              
+                <img  src="images/fevicon.png" alt="loading...">
+           
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white ms-5 fs-5" href="page1.html" >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="page2.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                      Results
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="2023.html">2023</a></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link slct text-white fs-5" href="page3.html">Participate</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="page4.html">Help</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+     </header>
+
+    <main>
+     <section class="container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <br><br><br>
+            <h1 class="text-center ">Make Yourself <span class="text-white">Count Now!</span></h1>
+          </div>
+          <div class="col-12">
+            
+              <br>
+              <br>
+              * Represents compulsory fields
+              <br><br>
+            <form action="" autocomplete="on">
+              <div class="personal">
+             <h2>Personal Information</h2>
+
+           <br><br>
+             <label for="fn">* Enter your First name</label> <br>
+             <input type="text" id="fn" class="w-100" required> <br><br>
+
+             <label for="ln">* Enter your Last name</label><br>
+             <input type="text" id="ln"  class="w-100" required>
+
+              <br><br>
+              <label for="cnic">* Enter your CNIC</label> <br>
+              <input type="text" id="cnic" class="w-100"  required> <br><br>
+
+
+              <label for="dob">* Enter your Date of birth</label> <br>
+              <input type="date"  class="w-100" id="dob">
+             <br>
+              <br>* Your gender: <br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                <label class="form-check-label" for="inlineRadio3">Other</label>
+              </div>
+
+              <br><br>
+          
+              * Marital Status:
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulta" id="flexRadioDefault1a">
+                <label class="form-check-label" for="flexRadioDefault1a">
+                  Single
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulta" id="flexRadioDefault2a" checked>
+                <label class="form-check-label" for="flexRadioDefault2a">
+                  Married
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulta" id="flexRadioDefault3a" >
+                <label class="form-check-label" for="flexRadioDefault3a">
+                  Widowed
+                  </label>
+              </div>   
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulta" id="flexRadioDefault4a" >
+                <label class="form-check-label" for="flexRadioDefault4a">
+                  Divorced
+                    </label>
+              </div>
+            </div>
+            <br><br><br>
+            <div class="contactinfo">
+              <h2>Contact Information</h2>
+              <br><br>
+              <label for="pa">* Permanent address</label>
+              <input type="text" id="pa" required style="width: 100%;">
+             <br><br>
+              <label for="ca">* Current address</label>
+              <input type="text" id="ca"  style="width: 100%;" required>
+              <br> <br>
+
+            * Your Province: <br>
+              <select class="form-select" required>
+                <option value="1">Punjab</option>
+                <option value="2">Sindh</option>
+                <option value="3">Khyber Pakhtun khwa</option>
+                <option value="4" selected>Balochistan</option>
+
+              </select>
+
+              <br>
+              * Your city: <br>
+              <select class="form-select" required >
+                <option value="1a">Lahore</option>
+                <option value="2a" selected>Gujranwala</option>
+                <option value="3a">Islamabad</option>
+                <option value="4a">Karachi</option>
+                <option value="5a">Sialkot</option>
+                <option value="6a">Hyderabad</option>
+                <option value="7a">Sakhar</option>
+                <option value="8a">Peshawar</option>
+                <option value="9a">Quetta</option>
+                <option value="10a">Mardan</option>
+              </select>
+              <br>
+
+              <label for="pn">Phone Number</label>
+              <input type="number" id="pn" >
+ 
+
+            </div>
+             <br><br><br>
+
+            <div class="household ">
+              <h2 class="row ms-lg-1">Household Information</h2>
+              <br><br>
+              <label for="mem" class="col-lg-3 col-sm-6 col-12">*Total members in family</label>
+              <input type="number" id="mm" class="col-lg-8 col-sm-12 col-12" required>
+               <br> <br>
+              <label for="rltn"  class="col-lg-3 col-sm-6 col-12">*Relation with the Head of family</label>
+              <input type="text" id="rltn" class="col-lg-8 col-sm-12 col-12" required>
+ 
+              <br> <br>
+              * Type of Residence: <br>
+             <select class="form-select" required >
+                <option value="1b">Own</option>
+                <option value="2b" selected>Rented</option>
+                <option value="3b">Government Provided</option>
+              
+              </select>
+
+            </div>
+             <br><br><br>
+            <div class="edu">
+              <h2>Education and Employement</h2>
+              <br><br>
+             * Highest Education level:
+             <br>
+             <select class="form-select" required>
+              <option value="1c" selected>None</option>
+              <option value="2c" >Primary</option>
+              <option value="3c">Matric</option>
+              <option value="4c">Intermediate</option>
+              <option value="5c" >Bachelors</option>
+              <option value="6c">Masters</option>
+              <option value="7c">PhD</option>
+              
+            </select>
+
+           <br>
+           * Currently enrolled in School/College/University ?
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefaultb" id="flexRadioDefault1b" checked>
+            <label class="form-check-label" for="flexRadioDefault1b">
+             YES
+            </label>
+           </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefaultb" id="flexRadioDefault2b" >
+            <label class="form-check-label" for="flexRadioDefault2b">
+             NO
+            </label>
+          </div>
+          <br>
+         * Employement Status: <br>
+          <select class="form-select" required>
+            <option value="1d" selected>Unemployed</option>
+            <option value="2d" >Employed</option>
+            <option value="3d">Retired</option>
+            <option value="4d">Self employed</option>
+            <option value="5d" >Student</option>
+          
+          </select>
+          <br>
+          * Type of occupation: <br>
+          <select class="form-select" required>
+            <option value="1e" selected>Government</option>
+            <option value="2e" >Private</option>
+            <option value="3e"> Business</option>
+            <option value="4e"> Freelancer</option>
+            <option value="5e" >Laborer</option>
+          
+          </select>
+
+          <br>
+
+          <label for="salary" class="form-label">* Monthly Income Range:</label>
+        <input type="number"  id="salary">
+            </div>
+          <br><br><br>
+            <div class="health">
+              <h2>Health & Disability</h2>
+
+              <br><br>* Any Physical/Mental Disability?
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaultc" id="flexRadioDefault1c" checked>
+                <label class="form-check-label" for="flexRadioDefault1c">
+                  YES
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaultc" id="flexRadioDefault2c" >
+                <label class="form-check-label" for="flexRadioDefault2c">
+                 NO
+                </label>
+              </div>
+
+              <br>* Access to Healthcare Facilities:
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaultd" id="flexRadioDefault1d">
+                <label class="form-check-label" for="flexRadioDefault1d">
+                  YES
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaultd" id="flexRadioDefault2d" checked>
+                <label class="form-check-label" for="flexRadioDefault2d">
+                 NO
+                </label>
+              </div>
+
+              <br>* Health Insurance:
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulte" id="flexRadioDefault1e">
+                <label class="form-check-label" for="flexRadioDefault1e">
+                  YES
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulte" id="flexRadioDefault2f" checked>
+                <label class="form-check-label" for="flexRadioDefault2f">
+                 NO
+                </label>
+              </div>
+
+            </div>
+            
+            <br> <br><br>
+            <div class="culture">
+              <h2>Ethnicity & Religion</h2>
+              <br><br>
+           * Your religion: <br>
+          <select class="form-select" required>
+            <option value="1f" selected>Islam</option>
+            <option value="2f" >Christianity</option>
+            <option value="3f"> Hinduism</option>
+            <option value="4f">Others</option>
+          
+          </select>
+
+          <br>
+
+          <br>
+          * Language Spoken at Home: <br>
+         <select class="form-select" required>
+           <option value="1g" selected>Urdu</option>
+           <option value="2g" >Punjabi</option>
+           <option value="3g">Sindhi</option>
+           <option value="4g">Pashto</option>
+           <option value="5g">Balochi</option>
+           <option value="6g">Others</option>
+         
+         </select>
+
+            </div>
+
+          <br><br><br>
+
+            <div class="migration">
+              <h2>Migration & Citizenship</h2>
+              <br><br>
+              
+              <label for="pb">* Place of Birth</label>
+              <input type="text" id="pb" required>
+               <br>
+              <br>* Have you ever Migrated:
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaultf" id="flexRadioDefault1g">
+                <label class="form-check-label" for="flexRadioDefault1d">
+                  YES
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefaultf" id="flexRadioDefault2g" checked>
+                <label class="form-check-label" for="flexRadioDefault2d">
+                 NO
+                </label>
+              </div>
+            
+
+              <br>
+          * Citizenship Status: <br>
+         <select class="form-select" required>
+           <option value="1h" selected>Pakistani</option>
+           <option value="2h" >Foreigner</option>
+           <option value="3h">Refugee</option>
+          
+         </select>
+            </div>
+ 
+            <br>
+            <br>
+            <input type="checkbox" name="consent" id="agree" required>* I agree to provide my data for census purposes
+
+        <br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button class="px-5 py-2 " type="reset">Reset All</button>
+        <button class="px-5 py-2" type="submit">Submit</button>
+        </div> 
+      </form>
+
+      </section>
+      <br><br><br><br><br>
+    </main>
+
+     <footer class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-4">
+        <div class="ftr1">
+            <img src="images/fevicon.png" alt="logo">
+            <br>
+            <h3 class="text-white mt-3">Pakistan's digital <br> census system</h3>
+        </div>
+       </div> 
+       <div class="col-12 col-sm-4">
+        <div class="ftr2">
+            <ul class="text-white fw-5">
+                <h3>Previous censuses</h3>
+                <li class="list-unstyled text-white"><a class=" text-white" href="">1951</a></li>
+                <li class="list-unstyled text-white"><a class=" text-white"  href="">1961</a></li>
+                <li class="list-unstyled text-white"><a class=" text-white"  href="">1972</a></li>
+                <li class="list-unstyled text-white"><a  class=" text-white" href="">1981</a></li>
+                <li class="list-unstyled text-white"><a  class=" text-white" href="">1998</a></li>
+                <li class="list-unstyled text-white"><a class=" text-white"  href="">2017</a></li>
+                <li class="list-unstyled text-white"><a class=" text-white"  href="">2023</a></li>
+            
+            </ul>
+            
+        </div>
+   </div>
+
+       <div class="col-12 col-sm-4 ">
+        <div class="ftr3 ">
+            <ul  class=" text-white" ><h3>Navigate</h3>
+                <li  class="list-unstyled text-white">
+                    <a  class=" text-white" href="page1.html">Home</a>
+                </li>
+                <li  class="list-unstyled text-white">
+                    <a   class=" text-white" href="page2.html">About</a>
+                </li> 
+                <li  class="list-unstyled text-white">
+                    <a  class=" text-white" href="page3.html">Count yourself</a>
+                </li> 
+                <li  class="list-unstyled text-white">
+                    <a  class=" text-white" href="page4.html">Help</a>
+                </li>
+            </ul>
+        </div> 
+       </div> 
+       </div>
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

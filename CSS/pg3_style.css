@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav
+{
+    background-color: #116530;
+}
+nav img
+{
+    height: 15vh;
+    width: 65px;
+    border-radius: 50%;
+}
+footer
+{
+    background-color: #116530;
+    padding-top: 3%;
+}
+footer h3
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+footer ul li 
+{
+    margin-bottom: 5%;
+}
+footer ul li a 
+{
+     text-decoration: none;
+}
+footer ul li a:hover
+{
+    border: 2px dashed white;
+}
+footer img{
+    height: 20vh;
+    border-radius:50% ;
+}
+.ftr3 ul li
+{
+   margin-bottom: 15%;
+}
+nav ul li a:hover
+{
+    border: 1px dashed white;
+}
+.slct
+{
+    border: 1px dashed white;
+}
+main
+{
+    background: linear-gradient(to right ,white , #116530 );
+}
+ 
+button
+{
+    border:1px solid #116530;
+    color:#116530;
+    font-weight: bold;
+    
+}

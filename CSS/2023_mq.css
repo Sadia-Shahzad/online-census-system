@@ -1,0 +1,151 @@
+@media screen and (max-width:575px)
+{
+    .ftr3, .ftr2,.ftr1 
+    {
+        text-align: center;
+    }
+    .ftr1 h3 
+    {
+        margin-bottom: 10%; 
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .ftr2{
+        margin-bottom: 15%; 
+    }
+    .pi
+{
+    width: 350px;
+    height:350px;
+}
+.labels h4
+{
+    font-size:small;
+}
+
+.l1
+{
+    position: relative;
+    bottom:30vh;
+    left:430px;
+}
+.l2
+{
+    position: relative;
+    top: 30px;
+    margin-left: -30%;
+}
+.l3
+{
+    position: relative;
+    bottom: 320px;
+   right: 10px;
+}
+.l4
+{
+    position: relative;
+    bottom: 420px;
+    left: 20px;
+}
+.l5
+{
+    position: relative;
+    bottom: 500px;
+    left: 150px;
+}
+.l6
+{
+    position: relative;
+    bottom: 500px;
+    left: 220px;
+}
+
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+
+  .labels h4
+  {
+    font-size: medium;
+  }
+    .l1
+{
+    position: relative;
+    bottom:30vh;
+    left:452px;
+}
+.l2
+{
+    position: relative;
+    top: 30px;
+    margin-left:-30%;
+}
+.l3
+{
+    position: relative;
+    bottom: 320px;
+   right:-22px;
+}
+.l4
+{
+    position: relative;
+    bottom: 428px;
+    left: 11px;
+}
+.l5
+{
+    position: relative;
+    bottom: 499px;
+    left: 120px;
+}
+.l6
+{
+    position: relative;
+    bottom: 560px;
+    left: 220px;
+}
+}
+
+@media screen  and (min-width:768px) and (max-width:991px) {
+    
+  .labels h4
+  {
+    font-size:large;
+  }
+    .l1
+{
+    position: relative;
+    bottom:30vh;
+    left:540px;
+}
+.l2
+{
+    position: relative;
+    bottom: 50px;
+    left: -2%;
+}
+.l3
+{
+    position: relative;
+    bottom: 320px;
+   right:-22px;
+}
+.l4
+{
+    position: relative;
+    bottom: 460px;
+    left: 11px;
+}
+.l5
+{
+    position: relative;
+    bottom: 530px;
+    left: 130px;
+}
+.l6
+{
+    position: relative;
+    bottom: 580px;
+    left: 280px;
+}
+}

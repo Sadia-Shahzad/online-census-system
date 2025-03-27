@@ -1,0 +1,45 @@
+@media screen and (max-width:575px)
+{
+    .ftr3, .ftr2,.ftr1 
+    {
+        text-align: center;
+    }
+    .ftr1 h3 
+    {
+        margin-bottom: 10%; 
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .ftr2{
+        margin-bottom: 15%; 
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px)
+ {
+    #fn
+    {
+        width:100%;
+    }
+    #ln
+    {
+        width:100%;
+    }
+    #cnic
+    {
+        width:100%;
+    }
+    #dob
+    {
+        width:100%;
+    }
+    #mm
+    {
+        width:100%;
+    }
+    #rltn
+    {
+        width:100%;
+    }
+}

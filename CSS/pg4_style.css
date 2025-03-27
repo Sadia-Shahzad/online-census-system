@@ -1,0 +1,67 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav
+{
+    background-color: #116530;
+}
+nav img
+{
+    height: 15vh;
+    width: 65px;
+    border-radius: 50%;
+}
+footer
+{
+    background-color: #116530;
+    padding-top: 3%;
+}
+footer h3
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+footer ul li 
+{
+    margin-bottom: 5%;
+}
+footer ul li a 
+{
+     text-decoration: none;
+}
+footer ul li a:hover
+{
+    border: 2px dashed white;
+}
+footer img{
+    height: 20vh;
+    border-radius:50% ;
+}
+.ftr3 ul li
+{
+   margin-bottom: 15%;
+}
+nav ul li a:hover
+{
+    border: 1px dashed white;
+}
+.slct
+{
+    border: 1px dashed white;
+}
+.hdr
+{
+    color:#13c557;
+}
+span
+{
+    font-weight:500;
+    color:#116530
+}
+form input,textarea{
+    border:2px solid #13c557;
+    border-radius:6px;
+}
